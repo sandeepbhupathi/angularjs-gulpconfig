@@ -1,0 +1,9 @@
+<div class="alert alert-danger" ng-show="albumviewer.page_loading_error">{{albumviewer.page_loading_error}}</div>
+
+<div class="photo thumbnail" ng-repeat="photo in albumviewer.photos" style="width: 250px; float: left; margin-right: 10px">
+
+  <a href="index.html#/album/{{albumviewer.album_name}}/photos/{{photo.filename}}">
+    <img ng-src="/media/{{albumviewer.album_name}}/thumb/{{photo.filename}}"/>
+  </a>
+  <p> {{ photo.description }} </p>
+</div>

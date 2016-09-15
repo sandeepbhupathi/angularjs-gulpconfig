@@ -1,2 +1,2 @@
 # angularjs-gulpconfig
-used https://github.com/sandeepbupathi08/angularjs-gulpconfig.git to configure gulp build
+used https://github.com/Swiip/generator-gulp-angular/blob/master/docs/usage.md to configure gulp build
